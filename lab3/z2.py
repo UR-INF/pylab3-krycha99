@@ -1,0 +1,10 @@
+from array import *
+tablica_znakow = array('u', [])
+print("podaj znak:")
+tablica_znakow.append(input())
+print("podaj znak:")
+tablica_znakow.append(input())
+print("podaj znak:")
+tablica_znakow.append(input())
+tablica_znakow.reverse()
+print(tablica_znakow)
